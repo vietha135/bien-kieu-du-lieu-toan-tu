@@ -1,0 +1,33 @@
+<head> 
+    <title> Hihi </title>
+    <script>
+        function TínhTổng() {
+            let st1 = document.getElementById("st1").value
+            let st2 = document.getElementById("st2").value
+            let Tổng = st1 + st2
+        }
+    </script>
+</head>
+<body>
+    <label>
+        Số thứ 1:
+        <input id="st1" type="number">
+    </label>
+    <br>
+    <br>
+    <label>
+        Số thứ 2:
+        <input id="st2" type="number">
+    </label>
+    Tổng: <span Id="Kết quả"></span>
+    <br>
+    <br>
+    <div id="tong"></div>
+<button type="button"; onclick="showMessage();">Tính tổng</button>
+<script>
+ function showMessage(){
+     document.getElementById('tong').innerHTML = 'Tự tính đi';
+ }
+</script>
+
+</body>
