@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Demo </title>
+</head>
+<body>
+    <script>
+        let n1 = prompt("So thu 1 la:");
+        n1 = parseInt(n1); //chuyển n1 thành số hoặc Number(n1)
+        let n2 = prompt("So thu 2 la:");
+        n2 = parseInt(n2); //chuyển n2 thành số
+        let tich = n1*n2;
+        let tong = n1+n2;
+      
+        // let x = (n1 % 2 == 0) ? n1 : n2
+        alert(`Tong 2 so la ${tong}! Tich 2 so la ${tich}!`);
+        alert(`So du cua n1 / n2 la ${n1 % n2}!`); //% để tính số dư
+
+        let is0dd = n1 % 2 == 0
+        let message = is0dd ? "so chan" : "so le"
+        alert(`n1 la ${message}!`) 
+        </script>
+
+    
